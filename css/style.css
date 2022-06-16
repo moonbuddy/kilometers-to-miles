@@ -4,7 +4,9 @@ html {
 }
 
 .navlogo {
-  height: 40px;
+  display: flex; 
+  margin: auto;
+  width: 100px;
 }
 
 h1 {
@@ -23,6 +25,10 @@ h1 {
   justify-content: center;
 }
 
+.user-input {
+  width: 100vw;
+}
+
 .instructions {
   font-family: sans-serif;
   color: #2EC4B6;
@@ -32,10 +38,33 @@ h1 {
 
 .button {
   font-family: sans-serif;
+  background-color: #ffdcad;
+  color: #f58f00;
+  font-weight: bold;
+  border-color: #FF9F1C;
+  border-radius: 20px;
 }
 
 .result {
   margin-top: 4vh;
   font-family: sans-serif;
   color: #2EC4B6;
+}
+
+footer {
+  position: absolute;
+  width: 100vw;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-family: sans-serif;
+  color: #FF9F1C;
+  background-color: #ffdcad;
+  text-align: center;
+}
+
+.moon {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  font-weight: bolder;
 }
