@@ -23,8 +23,19 @@ h1 {
   justify-content: center;
 }
 
-
-
 .instructions {
-  
+  font-family: sans-serif;
+  color: #2EC4B6;
+  font-size: 1.2rem;
+  font-weight: lighter;
+}
+
+.button {
+  font-family: sans-serif;
+}
+
+.result {
+  margin-top: 4vh;
+  font-family: sans-serif;
+  color: #2EC4B6;
 }
