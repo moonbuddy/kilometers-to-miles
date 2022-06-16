@@ -1,3 +1,18 @@
+html {
+  box-sizing: border-box;
+  background-color: #CBF3F0;
+}
+
 .navlogo {
   height: 40px;
+}
+
+h1 {
+  font-family: sans-serif;
+  text-align: center;
+  color: #2EC4B6;
+}
+
+.km {
+  color: #FF9F1C;
 }
